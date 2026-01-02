@@ -110,9 +110,9 @@ header a {
   transition: transform 0.15s ease;
 }
 header ul li a:hover {
-    transform: scale(1.03) !important;
-    font-weight: 700;
-    color: #e40510b3;
+  transform: scale(1.03) !important;
+  font-weight: 700;
+  color: #e40510b3;
 }
 .active {
   color: var(--red);
@@ -194,7 +194,7 @@ footer div p {
   margin-right: var(--font-size-2b);
 }
 .column {
-  font-family: "Black Han Sans",sans-serif;
+  font-family: "Black Han Sans", sans-serif;
   font-size: var(--font-size);
 }
 .column ul {
@@ -206,7 +206,7 @@ footer div p {
 }
 .column ul li {
   list-style: none;
-  font-family: "Montserrat",sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #fff;
   margin-top: var(--font-size-2b);
 }
@@ -224,7 +224,7 @@ hr {
   justify-content: center;
   background-color: var(--light-blue);
   padding: 10px 30px;
-  font-family: "Montserrat",sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: var(--font-size);
   color: white;
   padding-block: 1rem;
@@ -317,7 +317,7 @@ ul li .mail {
   padding: 12px 20px;
   color: white;
   text-decoration: none;
-  font-family: "Montserrat",sans-serif;
+  font-family: "Montserrat", sans-serif;
   transition: all 0.3s ease;
   min-width: 200px;
 }
@@ -403,7 +403,7 @@ ul li .mail {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-inline:20px;
+  margin-inline: 20px;
   border-radius: 20px;
 }
 
@@ -484,8 +484,8 @@ ul li .mail {
   font-size: var(--font-size-1);
   color: var(--red);
 }
-.github_link a{
-color: #4f518a;
+.github_link a {
+  color: #4f518a;
 }
 /** Floating hearts **/
 .floating_heart {
@@ -527,7 +527,8 @@ color: #4f518a;
   border-radius: 0;
   opacity: 1;
 }
-main,footer {
+main,
+footer {
   animation: fade 0.7s ease-out;
 }
 @keyframes fade {
@@ -536,7 +537,7 @@ main,footer {
     transform: scale(0.98);
   }
   60% {
-    opacity: .4;
+    opacity: 0.4;
   }
   100% {
     opacity: 1;
