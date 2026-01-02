@@ -484,6 +484,9 @@ ul li .mail {
   font-size: var(--font-size-1);
   color: var(--red);
 }
+.github_link a{
+color: #4f518a;
+}
 /** Floating hearts **/
 .floating_heart {
   position: absolute;
