@@ -484,6 +484,11 @@ ul li .mail {
   font-size: var(--font-size-1);
   color: var(--red);
 }
+.lol {
+  font-family: "Kaushan Script";
+  font-size: var(--font-size-1);
+  color:white;
+}
 .github_link a {
   color: #4f518a;
 }
